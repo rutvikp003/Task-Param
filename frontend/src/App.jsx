@@ -46,7 +46,7 @@ function App() {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ text: newText }),
+      body: JSON.stringify({ text: updatedText }),
     });
     fetchTasks();
     setIsTasksModalOpen(false);
